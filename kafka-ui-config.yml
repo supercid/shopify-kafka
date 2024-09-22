@@ -1,0 +1,14 @@
+auth:
+  type: DISABLED
+kafka:
+  clusters:
+  - bootstrapServers: kafka:29092
+    metrics:
+      port: 9997
+      type: JMX
+    name: shopify-product-webhook
+    properties: {}
+    readOnly: false
+rbac:
+  roles: []
+webclient: {}
